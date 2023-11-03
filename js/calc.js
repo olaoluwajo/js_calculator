@@ -17,7 +17,7 @@ buttons.map((button) => {
         try {
           display.innerText = eval(display.innerText);
         } catch {
-          display.innerText = "ERROR!";
+          display.innerText = "SYNTAX ERROR!";
         }
         break;
       default:
